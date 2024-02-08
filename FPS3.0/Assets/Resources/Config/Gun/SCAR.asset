@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc71e9addfa76542aafae5d95aa449b, type: 3}
+  m_Name: SCAR
+  m_EditorClassIdentifier: 
+  itemName: GT_Rifle_Scar
+  itemID: 1000
+  itemPrefeb: {fileID: 8755389272360994907, guid: 6a6e1ab4327ece640a7bf10ffc948dfd, type: 3}
+  itemType: 0
+  itemSprite: {fileID: 21300004, guid: dccc05b8d01dde54f88f9910329187c2, type: 3}
+  gunType: 1
+  fireType: 2
+  maxBulletNum: 150
+  cartridgeClip: 20
+  changeFireTypeAble: 1
+  effectiveRange: 400
+  rateOfFire: 4
+  bulletForce: 100
+  bulletSpeed: 800
+  recoil: 0.2
+  SpreadAngle: 12
+  bulletPrefeb: {fileID: 8674567017814450707, guid: 6f619f093ffa4734bb0235082359ba2f, type: 3}
+  bulletType: 0
+  bulletCasingType: 1
+  fovForAim: 55
+  fovForNormal: 60
+  waitReload: 1.5
+  waitReloadOut: 2.2
+  FireSound: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  FireSoundSilencer: {fileID: 8300000, guid: 2b9fddacd69aeab499c6f3de830c5311, type: 3}
+  noBulletSound: {fileID: 8300000, guid: f9ce3352943c16244a2e1504722c93c6, type: 3}
+  AimSound: {fileID: 8300000, guid: acaebc89b98b82142bd2b24edb6081e4, type: 3}
+  reLoadSound: {fileID: 8300000, guid: fa137ae6327c2814a86677589e5b5e90, type: 3}
+  outReloadSound: {fileID: 8300000, guid: 6ea3f126624d1d34e988448241ce964b, type: 3}
+  ReloadSoundIn: {fileID: 0}
+  drawSound: {fileID: 8300000, guid: 2ae41e984ff1f3e4a840a1a46b6a8816, type: 3}
+  changeSound: {fileID: 8300000, guid: 33a4a9bf1a1dbca4cb379a1118c6b20d, type: 3}
+  bulletParticle: {fileID: 5005457707364684508, guid: c649645ba819bea45967703e5b43f416, type: 3}
+  bulletShell: {fileID: 8442811577598826256, guid: 68e66e6fbc02c6d4b883f23026238c95, type: 3}

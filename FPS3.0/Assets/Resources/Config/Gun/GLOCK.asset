@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc71e9addfa76542aafae5d95aa449b, type: 3}
+  m_Name: GLOCK
+  m_EditorClassIdentifier: 
+  itemName: GT_HandGun_GLOCK
+  itemID: 2000
+  itemPrefeb: {fileID: 2764534005559959094, guid: 7c7985bb6f5d1594aad56e2a4089fbac, type: 3}
+  itemType: 0
+  itemSprite: {fileID: 21300008, guid: dccc05b8d01dde54f88f9910329187c2, type: 3}
+  gunType: 1
+  fireType: 2
+  maxBulletNum: 34
+  cartridgeClip: 17
+  changeFireTypeAble: 1
+  effectiveRange: 80
+  rateOfFire: 10
+  bulletForce: 120
+  bulletSpeed: 700
+  recoil: 0.2
+  SpreadAngle: 10
+  bulletPrefeb: {fileID: 8674567017814450707, guid: 6f619f093ffa4734bb0235082359ba2f, type: 3}
+  bulletType: 0
+  bulletCasingType: 1
+  fovForAim: 55
+  fovForNormal: 60
+  waitReload: 1.3
+  waitReloadOut: 1.6
+  FireSound: {fileID: 8300000, guid: 38b450e2adcb6f542acc8c1d423bd8dc, type: 3}
+  FireSoundSilencer: {fileID: 8300000, guid: 2b9fddacd69aeab499c6f3de830c5311, type: 3}
+  noBulletSound: {fileID: 8300000, guid: f9ce3352943c16244a2e1504722c93c6, type: 3}
+  AimSound: {fileID: 8300000, guid: acaebc89b98b82142bd2b24edb6081e4, type: 3}
+  reLoadSound: {fileID: 8300000, guid: b0d51244fd32fc647960320540b32f66, type: 3}
+  outReloadSound: {fileID: 8300000, guid: fee3a21f251a4914cabce25b13e7d2a8, type: 3}
+  ReloadSoundIn: {fileID: 0}
+  drawSound: {fileID: 8300000, guid: 2ae41e984ff1f3e4a840a1a46b6a8816, type: 3}
+  changeSound: {fileID: 8300000, guid: 33a4a9bf1a1dbca4cb379a1118c6b20d, type: 3}
+  bulletParticle: {fileID: 5005457707364684508, guid: e3870e22eeba69e4690c149edbdcacfe, type: 3}
+  bulletShell: {fileID: 8442811577598826256, guid: 68e66e6fbc02c6d4b883f23026238c95, type: 3}

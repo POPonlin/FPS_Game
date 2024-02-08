@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd61a8cf166b4094b9ddf841f29c4bb8, type: 3}
+  m_Name: FlashBang
+  m_EditorClassIdentifier: 
+  itemName: GT_FlashBang
+  itemID: 6001
+  itemPrefeb: {fileID: 9095356223607143646, guid: ba96f226ad8338f4ab3d66bce9231acc, type: 3}
+  itemType: 1
+  itemSprite: {fileID: 21300000, guid: 04e6792f470c37741aa02ec74be1777b, type: 3}
+  subType: 1
+  delayTime: 3
+  explosionRange: 5
+  explosionForce: 6
+  throwForce: 500
+  throwClip: {fileID: 8300000, guid: 99d11e390b291d24f95279e3d862197e, type: 3}
